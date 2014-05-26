@@ -14,9 +14,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    wopengl.cpp
+    wopengl.cpp \
+    gamecycle.cpp
 
 HEADERS  += mainwindow.h \
-    wopengl.h
+    wopengl.h \
+    gamecycle.h
 
 FORMS    += mainwindow.ui
