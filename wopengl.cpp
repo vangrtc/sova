@@ -90,3 +90,15 @@ void WOpengl::tiktack()
 {
     rotate();
 }
+
+void WOpengl::keyPressEvent(QKeyEvent* event)
+{
+    switch (event->key())
+    {
+    case Qt::Key_Escape :
+        qApp->quit();
+        break;
+    default:
+        break;
+    }
+}
