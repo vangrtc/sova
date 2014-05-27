@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>394</width>
+    <height>349</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,11 +17,17 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>90</y>
-      <width>75</width>
-      <height>23</height>
+      <x>130</x>
+      <y>120</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>New game</string>
@@ -30,11 +36,17 @@
    <widget class="QPushButton" name="loadButton">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>120</y>
-      <width>75</width>
-      <height>23</height>
+      <x>130</x>
+      <y>150</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Load game</string>
@@ -43,11 +55,17 @@
    <widget class="QPushButton" name="optionsButton">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>150</y>
-      <width>75</width>
-      <height>23</height>
+      <x>130</x>
+      <y>180</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Options</string>
@@ -56,11 +74,20 @@
    <widget class="QPushButton" name="exitButton">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>180</y>
-      <width>75</width>
-      <height>23</height>
+      <x>130</x>
+      <y>210</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
     </property>
     <property name="text">
      <string>Exit game</string>
@@ -72,10 +99,16 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>400</width>
+     <width>394</width>
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuSoca">
+    <property name="title">
+     <string>Sova</string>
+    </property>
+   </widget>
+   <addaction name="menuSoca"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">

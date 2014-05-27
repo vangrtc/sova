@@ -8,13 +8,13 @@ WOpengl::WOpengl()
     timer = new QTimer;
     QObject::connect(timer,SIGNAL(timeout()),SLOT(tiktack()));
     timer->start(50);
-
 }
+
 
 void WOpengl::initializeGL()
 {
     //Задаем цвет фона в OpenGL окне
-    qglClearColor(Qt::black);
+    qglClearColor(Qt::green);
 
     //Задаем режим обработки полигонов - переднюю и заднюю часть, полигоны полностью закрашеные (а можно просто рамку отображать)
     glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);

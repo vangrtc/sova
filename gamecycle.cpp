@@ -1,4 +1,4 @@
-//#include "stdio.h"
+/* //#include "stdio.h"
 #include <iostream>
 #include <string>
 #include "stdio.h"
@@ -20,10 +20,6 @@ public:
 
 };
 
-
-
-
-
 class world
 {
 
@@ -41,6 +37,7 @@ public:
                 map[i][j] == ' ';
             }
         }
+
         for (int i = 0; i++; i < 10)
         {
             int x = rand() % 10;
@@ -50,6 +47,9 @@ public:
         }
     }
 };
+
+
+
 
 class view
 {
@@ -103,3 +103,4 @@ int main()
     system("PAUSE");
     return 0;
 }
+*/

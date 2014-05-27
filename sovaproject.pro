@@ -15,7 +15,8 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     wopengl.cpp \
-    gamecycle.cpp
+    gamecycle.cpp \
+    view.cpp
 
 HEADERS  += mainwindow.h \
     wopengl.h \
