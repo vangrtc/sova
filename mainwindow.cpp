@@ -18,4 +18,10 @@ void MainWindow::on_pushButton_clicked()
 {
     WOpengl *opengl_window = new WOpengl;
     opengl_window->show();
+    //opengl_window->showFullScreen();
+}
+
+void MainWindow::on_exitButton_clicked()
+{
+    qApp->quit();
 }

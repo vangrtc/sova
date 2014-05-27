@@ -17,6 +17,8 @@ public:
    double angle;
     void rotate();
     QTimer *timer;
+    void keyPressEvent(QKeyEvent* event);
+
 public slots:
     void tiktack();
 };
