@@ -1,6 +1,6 @@
 #include "wopengl.h"
 #include <QtOpenGL>
-#include <GL/gl.h>
+#include <OpenGL/gl.h>
 
 WOpengl::WOpengl()
 {
@@ -54,7 +54,7 @@ void WOpengl::scene()
 {
 
     //Задаем цвет изображения
-    qglColor(Qt::green);
+    qglColor(Qt::black);
 
     //Начинаем отрисовку, аргумент означает отрисовку прямоугольника. Каждый вызов glVertex3f задает одну вершину прямоугольника
     glBegin(GL_QUADS);
@@ -71,7 +71,7 @@ void WOpengl::rotate()
     angle += 1;
 
     //Проверяем переполнение (360 градусов)
-    (angle > 360)? angle = 0: 0;
+    (angle > 180)? angle = 0: 0;
 
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
