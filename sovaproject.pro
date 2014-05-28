@@ -20,6 +20,7 @@ SOURCES += main.cpp\
 
 HEADERS  += mainwindow.h \
     wopengl.h \
-    gamecycle.h
+    gamecycle.h \
+    view.h
 
 FORMS    += mainwindow.ui
