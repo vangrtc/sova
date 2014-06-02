@@ -34,6 +34,9 @@ void MainWindow::keyPressEvent(QKeyEvent *ke)
 {
     switch (ke->key())
     {
+        case Qt::Key_Left:
+             menu();
+        break;
         case Qt::Key_Escape:
           menu();
         break;
